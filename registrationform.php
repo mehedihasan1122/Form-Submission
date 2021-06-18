@@ -61,6 +61,17 @@ return $data;
 
 <br><br>
 
+
+
+<label for="DOB">DOB:</label>
+<input type="date" id="DOB" name="DOB">
+<span style="color: blue"><?php echo $nameError; ?></span>
+
+<br><br>
+
+
+
+
 <label for="Religion">Religion:</label>
         <select id="Religion" name="Religion">
             <option value="" selected></option>
@@ -126,6 +137,9 @@ return $data;
 <label for="name">Username:</label>
 <input type="text" id="name" name="name">
 <span style="color: blue"><?php echo $nameError; ?></span>
+
+
+<br><br>
 
 <label for="password">password:</label>
 <input type="password" id="pwd" name="pwd">
